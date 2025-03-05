@@ -37,6 +37,13 @@ namespace SampleProject
 
             // Printing the result
             Console.WriteLine("The result is: " + result);
+
+
+
+            // New branch will hold these changes.
+            Console.WriteLine("Please rate how accurate this calculation is from 1 to 10: ");
+            int rating = int.Parse(Console.ReadLine());
+
         }
     }
 }
