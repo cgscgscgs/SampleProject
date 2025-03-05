@@ -13,6 +13,13 @@ namespace SampleProject
             Console.WriteLine("Hello World!");
 
             Console.WriteLine("Second line of text here.");
+
+
+            // Ask user for a number and read it
+            Console.WriteLine("Input a number: ");
+            int UserInput = int.Parse(Console.ReadLine());
+            
+            
         }
     }
 }
