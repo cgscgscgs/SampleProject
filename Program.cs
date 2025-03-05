@@ -11,6 +11,8 @@ namespace SampleProject
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+
+            Console.WriteLine("Second line of text here.");
         }
     }
 }
